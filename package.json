@@ -1,0 +1,15 @@
+{
+  "name": "rock_paper_scissors",
+  "version": "1.0.0",
+  "description": "Rock paper scissors game made with javascript frontend, Java backend, and postgress SQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "parcel index.html single.html callSingleEndpoint.js"
+  },
+  "author": "Yupiel",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

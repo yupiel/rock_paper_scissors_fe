@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="module" src="./singlePlayer.js"></script>
+    <link rel="stylesheet" href="./singlePlayer.css" />
+    <title>Singleplayer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors Singleplayer</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="container__play">
+          <label for="answer">Choose.</label>
+          <div class="container__play__selector">
+            <select name="answer" id="playerAnswer">
+              <option value="Stein">Rock</option>
+              <option value="Papier">Paper</option>
+              <option value="Schere">Scissors</option>
+            </select>
+          </div>
+          <div class="container__play__submit">
+            <input
+              class="submitBtn"
+              id="submitBtn"
+              type="submit"
+              value="submit"
+            />
+          </div>
+          <div class="container__play__result">
+              <p id="singlePlayerResult"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Bootcamp 2020</p>
+    </footer>
+  </body>
+</html>
